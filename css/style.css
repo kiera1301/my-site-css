@@ -1,1 +1,161 @@
+/******CSS STYLES******/
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #40514E;
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserat', sans-serif;
+    font-weight: normal;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserat', sans-serif;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+span {
+    color: #66BFBF;
+    text-decoration: underline;
+}
+
+hr {
+    border: thick dotted #c6dada;
+    border-bottom: none;
+    margin: 0 auto;
+    width: 10%;
+}
+
+/******CLASS TAGS******/
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.middle-container {
+    margin: 100px auto 0;
+    width: 50%;
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.profile-descr {
+    line-height: 2;
+}
+
+.skills {
+    margin: 50px 0;
+}
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    margin: 50px 0;
+    text-align: left;
+}
+
+.kitty-computer {
+    border-radius: 50%;
+    margin-right: 30px;
+    width: 40%;
+}
+
+.pennywise {
+    border-radius: 50%;
+    margin-left: 30px;
+    width: 40%;
+}
+
+.contact-me {
+    margin: 50px 0;
+}
+
+.contact-me-descr {
+    line-height: 3;
+    margin-top: 32px;
+}
+
+.contact-me-descr h3 {
+    font-weight: bold;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 40px;
+}
+
+.contact-btn {
+    background-image: linear-gradient(#50D2D2, #187171);
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 0px #ababab;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 20px;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    text-align: center;
+    }
+    
+.contact-btn:hover {
+    background-image: linear-gradient(#187171, #50D2D2);
+    border-radius: 25px;
+    text-decoration: none;
+    }
+
+.footer-link {
+    color: #11999E;
+    margin: 0 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 40px 0 0;
+} 
+
 
